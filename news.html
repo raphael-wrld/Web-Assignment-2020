@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>News|Oriel Boys High School|</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="icon" href="http://www.orielboyshigh.ac.zw/wp-content/uploads/2018/07/cropped-logo-1.png" type="image/icon">
+    <style>
+        .mySlides {
+            display: none;
+        }
+        
+    </style>
+</head>
+<body>
+    <header>
+        <h1>oriel boys high school</h1>
+        <nav>
+            <section id="nav-container">
+                <ul class="nav-list">
+                    <li><a href="index.html">Home</a></li>
+                    <li class="active-page"><a href="#">News</a></li>
+                    <li><a href="contact-us.html">Contact Us</a></li>
+                </ul>
+            </section>
+        </nav>
+    </header>
+        <body class="news-bg">
+    <main>
+        <section id="news">
+            <h1>News</h1>
+            <p>Unfortunately due to the lockdown the gentlemen of Oriel weren't able to do any activities
+                or attend school for seven months.
+            But the 0'level and A'level examination classes were able to open schools and are continuing learning until their final examinations.
+        The rest of the students will open in late October and mid early November. </p>
+        <h2>Sports</h2>
+        <p>As mentioned above no sports were done because of the pandemic but below are some photos of our beasts taken in the recent years. </p>
+        </section>
+                        <div class="w3-content w3-section" style="max-width:1080px;margin: 0 auto;padding: 30px;">
+                            <img class="mySlides" src="http://www.orielboyshigh.ac.zw/wp-content/uploads/2018/07/UNDER-17-SOCCER-TEAM.jpg" style="width:100%">
+                            <img class="mySlides" src="http://www.orielboyshigh.ac.zw/wp-content/uploads/2018/06/IMG_20180605_152052.jpg" style="width:100%">
+                            <img class="mySlides" src="http://www.orielboyshigh.ac.zw/wp-content/uploads/2018/07/RUGBY-XI-TEAM.jpg" style="width:100%">
+                            <img class="mySlides" src="http://www.orielboyshigh.ac.zw/wp-content/uploads/2018/07/RUGBY-FIRST-TEAM.jpg" style="width: 100%;">
+
+                            <img class="mySlides" src="http://www.orielboyshigh.ac.zw/wp-content/uploads/2018/07/SOCCER.jpg"
+                                style="width: 100%;">
+                                <img class="mySlides" src="http://www.orielboyshigh.ac.zw/wp-content/uploads/2018/07/SOCCER-IN-ACTION-UNDER-17.jpg"
+                                    style="width: 100%;">
+                                    <img class="mySlides" src="http://www.orielboyshigh.ac.zw/wp-content/uploads/2018/07/SOCCER-HALF-TIME.jpg" style="width: 100%;">
+                        </div>
+                        </main>
+                        
+                        <script>
+                            var myIndex = 0;
+                            carousel();
+
+                            function carousel() {
+                                var i;
+                                var x = document.getElementsByClassName("mySlides");
+                                for (i = 0; i < x.length; i++) {
+                                    x[i].style.display = "none";
+                                }
+                                myIndex++;
+                                if (myIndex > x.length) { myIndex = 1 }
+                                x[myIndex - 1].style.display = "block";
+                                setTimeout(carousel, 3000); // Change image every 2 seconds
+                            }
+                        </script>
+
+<footer>
+    <img src="http://www.orielboyshigh.ac.zw/wp-content/uploads/2018/07/cropped-logo-1.png">
+    <ul>
+        <li><a class="foot-list" href="#">Zimsec</a></li>
+        <li><a class="foot-list" href="#">Epmafara</a></li>
+        <li><a class="foot-list" href="#">Unicef</a></li>
+        <li><a class="foot-list" href="#">Save the children</a></li>
+    </ul>
+    <ul style="padding-left: 3px;">
+        <li><a class="foot-list" href="#">ZJC</a></li>
+        <li><a class="foot-list" href="#">O'level</a></li>
+        <li><a class="foot-list" href="#">A'level</a></li>
+        <li><a class="foot-list" href="#">Staff</a></li>
+    </ul>
+    <p>This web page was created by Raphael Mugwedeza &copy;2020</p>
+</footer>
+</body>
+</html>
